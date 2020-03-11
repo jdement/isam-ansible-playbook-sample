@@ -1,7 +1,7 @@
 # IBM Sample Code
 
-This repository contains a sample Playbook. It can be used as the starting point for ISAM
-Orchestartion efforts. It uses Ansible ISAM Roles, which in turn uses "ibmsecurity" python
+This repository contains sample Playbooks. It can be used as the starting point for ISAM
+Orchestration efforts. It uses Ansible ISAM Roles, which in turn uses the "ibmsecurity" python
 package.
 
 ## Requirements
@@ -26,7 +26,7 @@ Clone this repository to get started, like so:
 ## Features
 
 ### Test Inventory
-The playbook contains a static inventory file describing two appliances in a data center in Boulder. The appliance ip 
+The playbook contains a static inventory file describing two appliances in a data center in Boulder. The appliance IP 
 addresses are used to identify them to avoid dependency on DNS or host entries. Passwords are stored in a "vault.yml" - 
 these would ideally be encrypted, but that step has been skipped to allow for demonstration purposes.
 
